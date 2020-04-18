@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>9.0.21022</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{B68A0320-7E1A-BF3D-48A3-AAB8992DD86E}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace>Irrelevant</RootNamespace>
+	<AssemblyName>Irrelvant</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_1_0;UNITY_3_1;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_OSX;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+	<Reference Include="Boo.Lang">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/Boo.Lang.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityScript">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Mono/lib/mono/unity/UnityScript.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <None Include="Assets\Blob-Shadow\ProjectorMultiply.shader" />
+     <None Include="Assets\Scripts\AnimationController.js" />
+     <None Include="Assets\Scripts\AnimationDebug.js" />
+     <None Include="Assets\Scripts\AnimationSpeed.js" />
+     <None Include="Assets\Scripts\CameraRelativeControl.js" />
+     <None Include="Assets\Scripts\ControlMenu.js" />
+     <None Include="Assets\Scripts\DepositTrigger.js" />
+     <None Include="Assets\Scripts\DestroyInMainScene.js" />
+     <None Include="Assets\Scripts\FadeInFadeOut.js" />
+     <None Include="Assets\Scripts\FollowTransform.js" />
+     <None Include="Assets\Scripts\Joystick.js" />
+     <None Include="Assets\Scripts\LaunchIntro.js" />
+     <None Include="Assets\Scripts\OrbGizmo.js" />
+     <None Include="Assets\Scripts\ParticlePickup.js" />
+     <None Include="Assets\Scripts\PickupManager.js" />
+     <None Include="Assets\Scripts\PlayerRelativeControl.js" />
+     <None Include="Assets\Scripts\RotationConstraint.js" />
+     <None Include="Assets\Scripts\ScoreKeeper.js" />
+     <None Include="Assets\Scripts\TapControl.js" />
+     <None Include="Assets\Scripts\WaterMovement.js" />
+     <None Include="Assets\Scripts\ZoomCamera.js" />
+     <None Include="Assets\Shaders\Alpha-VertexColor-1.shader" />
+     <None Include="Assets\Shaders\Alpha-VertexColor.shader" />
+     <None Include="Assets\Shaders\LightmapOnlyShader.shader" />
+     <None Include="Assets\Shaders\Particle Add Culled.shader" />
+     <None Include="Assets\Shaders\iphone-lightmap-alphatest.shader" />
+     <None Include="Assets\Shaders\iphone-lightmap-reflective.shader" />
+     <None Include="Assets\Shaders\vertexColor.shader" />
+     <None Include="Assets\Shaders\vertexUnlit.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
+	

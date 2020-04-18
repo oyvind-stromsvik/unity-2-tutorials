@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>files</key>
+	<dict>
+		<key>Data/Assembly - UnityScript.dll</key>
+		<data>
+		hgWvJVrtkm9mRIXirYBnVetxsro=
+		</data>
+		<key>Data/Boo.Lang.dll</key>
+		<data>
+		W8jvVsUBADQFuTMDNeUY//ynYao=
+		</data>
+		<key>Data/UnityEngine.dll</key>
+		<data>
+		+LHJ1Wq22J63dUSXImxX09i5JfA=
+		</data>
+		<key>Data/UnityScript.Lang.dll</key>
+		<data>
+		qfVahCnnP1zzZFhpY8ATFkQ6QJg=
+		</data>
+		<key>Data/mainData</key>
+		<data>
+		aknFw71AF5JkPUb1bSNIBjM5TkY=
+		</data>
+		<key>Data/mono/1.0/machine.config</key>
+		<data>
+		KiLI/LPHDCXkdpS8ehQrSbXLr0M=
+		</data>
+		<key>Data/mscorlib.dll</key>
+		<data>
+		WvKJeQ3rgeC9WF2xJpM7derts+A=
+		</data>
+		<key>Data/sharedassets0.assets</key>
+		<data>
+		Ex7UbPTrISoZ4whjxAH9ncFKC4c=
+		</data>
+		<key>Data/unity default resources</key>
+		<data>
+		2zobqm26oLSwpJjbelJmGRcocaA=
+		</data>
+		<key>Default.png</key>
+		<data>
+		yRg4kIygrXdSm6eWfspdXMeNyS8=
+		</data>
+		<key>Icon.png</key>
+		<data>
+		yE6+SkXSTTqJmHi6HZlBC072Hl0=
+		</data>
+		<key>MainWindow.nib</key>
+		<data>
+		/6cm1g6HDHe21/oSONEiCHvbvm0=
+		</data>
+		<key>PkgInfo</key>
+		<data>
+		n57qDP4tZfLD1rCS43W0B4LQjzE=
+		</data>
+		<key>embedded.mobileprovision</key>
+		<data>
+		NVadvE1gDKlBJ+DnCiNT0SbZpN4=
+		</data>
+	</dict>
+	<key>rules</key>
+	<dict>
+		<key>.*</key>
+		<true/>
+		<key>Info.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>10</real>
+		</dict>
+		<key>ResourceRules.plist</key>
+		<dict>
+			<key>omit</key>
+			<true/>
+			<key>weight</key>
+			<real>100</real>
+		</dict>
+	</dict>
+</dict>
+</plist>

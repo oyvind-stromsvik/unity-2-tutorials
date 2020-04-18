@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Enabled</key>
+	<array>
+		<false/>
+		<false/>
+		<false/>
+		<false/>
+		<true/>
+	</array>
+	<key>PathNames</key>
+	<array>
+		<string>Assets/  Scenes/EmeraciteMine.unity</string>
+		<string>Assets/  Scenes/Control Setups/TapControlSetup.unity</string>
+		<string>Assets/  Scenes/Control Setups/PlayerRelativeSetup.unity</string>
+		<string>Assets/  Scenes/Control Setups/CameraRelativeSetup.unity</string>
+		<string>Assets/_MyAssets/MyLevels/FRPControl.unity</string>
+	</array>
+	<key>iPhone LastLocation</key>
+	<string>/Users/theantranch/Documents/Tutorials/Unity Tutorials/Penelope/Tutorial Project/iPhone Build/iPhone Build</string>
+</dict>
+</plist>
